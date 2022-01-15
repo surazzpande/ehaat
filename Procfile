@@ -1,1 +1,0 @@
-web: gunicorn Intern.wsgi --log-file=-

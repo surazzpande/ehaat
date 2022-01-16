@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i4g9@n+p)v6-=ch)6#*ux4_h^-wvjun8ri9x3%!8n8pe*%naqo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','ehaat-bazar.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','ehaat-bazar.herokuapp.com','localhost']
 
 
 # Application definition
@@ -85,7 +85,7 @@ DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.mysql',
     'NAME': 'EhatBazzar',  
-    'HOST': '127.0.0.1',
+    'HOST': 'localhost',
     'PORT': '3306',
     'USER': 'admin',
     'PASSWORD': 'admin',
